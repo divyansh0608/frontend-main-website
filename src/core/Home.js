@@ -56,6 +56,7 @@ const Home = () => {
                      </div>
                 ))}
                 </div>
+            {/* <script src="//code.tidio.co/gqbhiifx8ecnxgfwsp614hsq32s3whd6.js" async></script>  */}
         {/* {JSON.stringify(productsByArrival)}
         <hr/>
         {JSON.stringify(productsBySell)}
@@ -81,3 +82,4 @@ const Home = () => {
     );
 };
 export default Home 
+{/* <script src="//code.tidio.co/gqbhiifx8ecnxgfwsp614hsq32s3whd6.js" async></script> */}

@@ -15,10 +15,20 @@ const Menu = ({ history}) => (
         <ul className="nav nav-tabs bg-primary">
         <li className="nav-item">
         <Link 
-              className="nav-link" 
+              className="nav-link"  
               style={isActive(history, "/")} 
               to="/">HOME</Link>
            </li>
+           <li className="nav-item">
+                <Link
+                    className="nav-link"
+                    style={isActive(history, "/gallery")}
+                    to="/gallery"
+                >
+                  Gallery
+                </Link>
+            </li>
+            <li className="nav-item" ><a href=" https://minniartworks.herokuapp.com/photos.html" target="_blank">Gallery</a></li>
            <li className="nav-item">
                 <Link
                     className="nav-link"
