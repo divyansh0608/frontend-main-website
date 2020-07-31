@@ -33,7 +33,7 @@ const buy = () => {
     console.log('>>>>>>>>Inside the pay function');
     const data = {
             purpose: 'Bit Payment',
-            amount: '12000',
+            amount: '56500',
             buyer_name: 'divyansh',
             email: 'divyansh8june@gmail.com',
             address: '7 lok kalyan marg',
